@@ -2,16 +2,16 @@
 
 This is a tutorial to learn the basics of Rails : [Tutorial](https://www.railstutorial.org/book)
 
-##How to install (on MacOSX)
+## How to install (on MacOSX)
 
 
-###Installing Homebrew
+### Installing Homebrew
 
 ```
 ruby -e '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)'
 ```
 
-###Installing Ruby
+### Installing Ruby
 
 ```
 brew install rbenv ruby-build
@@ -22,7 +22,7 @@ $rbenv global 2.4.2
 $ruby -v
 ```
 
-###Installing Rails
+### Installing Rails
 
 ```
 gem install rails -v 5.1.4
@@ -31,7 +31,7 @@ rails -v
 # Rails 5.1.4
 ```
 
-###Creating hello app
+### Creating hello app
 
 ```
 cd                  # Change to the home directory.
@@ -43,7 +43,7 @@ cd ~/environment/hello_app/
 rails server
 ```
 
-##License
+## License
 
 *Ruby on Rails Tutorial: Learn Web Development with Rails. Copyright © 2016 by Michael Hartl. Last updated 2017/12/08 14:13:41 PT.*
 
