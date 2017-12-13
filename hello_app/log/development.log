@@ -1,0 +1,35 @@
+Started GET "/" for 127.0.0.1 at 2017-12-11 00:15:25 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.8ms)
+Completed 200 OK in 583ms (Views: 22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-13 19:44:25 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.7ms)
+Completed 200 OK in 672ms (Views: 30.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-13 19:44:53 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rubenmz/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (7.5ms)
+Completed 200 OK in 616ms (Views: 24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-13 19:45:34 +0100
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-13 19:47:02 +0100
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms)
+
+
