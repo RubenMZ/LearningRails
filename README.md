@@ -73,6 +73,12 @@ created_at: "2016-05-15 02:01:31", updated_at: "2016-05-15 02:01:31">
 >> exit
 ```
 
+### Generating a Static Pages controller
+
+```
+rails generate controller StaticPages home help
+```
+
 ## License
 
 *Ruby on Rails Tutorial: Learn Web Development with Rails. Copyright © 2016 by Michael Hartl. Last updated 2017/12/08 14:13:41 PT.*
