@@ -79,6 +79,38 @@ created_at: "2016-05-15 02:01:31", updated_at: "2016-05-15 02:01:31">
 rails generate controller StaticPages home help
 ```
 
+### Check if Rails environment
+
+The default environment for the Rails console is development:
+```
+ $ rails console
+  Loading development environment
+  >> Rails.env
+  => "development"
+  >> Rails.env.development?
+  => true
+  >> Rails.env.test?
+  => false
+```
+
+If you ever need to run a console in a different environment (to debug a test, for example), you can pass the environment as a parameter to the console script:
+
+```
+rails console test
+  Loading test environment
+  >> Rails.env
+  => "test"
+  >> Rails.env.test?
+  => true
+```
+
+As with the console, development is the default environment for the Rails server, but you can also run it in a different environment:
+
+```
+rails server --environment production
+rails db:migrate RAILS_ENV=production
+```
+
 ## License
 
 *Ruby on Rails Tutorial: Learn Web Development with Rails. Copyright © 2016 by Michael Hartl. Last updated 2017/12/08 14:13:41 PT.*
